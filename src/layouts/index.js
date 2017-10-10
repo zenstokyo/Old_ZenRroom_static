@@ -4,38 +4,12 @@ import Link from 'gatsby-link'
 import Helmet from 'react-helmet'
 
 import './index.css'
+import './home.css'
 
-const Header = () => (
-  <div
-    style={{
-      background: 'rebeccapurple',
-      marginBottom: '1.45rem',
-    }}
-  >
-    <div
-      style={{
-        margin: '0 auto',
-        maxWidth: 960,
-        padding: '1.45rem 1.0875rem',
-      }}
-    >
-      <h1 style={{ margin: 0 }}>
-        <Link
-          to="/"
-          style={{
-            color: 'white',
-            textDecoration: 'none',
-          }}
-        >
-          Gatsby
-        </Link>
-      </h1>
-    </div>
-  </div>
-)
+import airbnbImage from '../images/airbnb-3.jpg'; // Tell Webpack this JS file uses this image
 
 const TemplateWrapper = ({ children }) => (
-  <div>
+  <div className="wrapper" style={{backgroundImage: `url(${airbnbImage})`}}>
     <Helmet
       title="Gatsby Default Starter"
       meta={[
@@ -43,7 +17,6 @@ const TemplateWrapper = ({ children }) => (
         { name: 'keywords', content: 'sample, something' },
       ]}
     />
-    <Header />
     <div
       style={{
         margin: '0 auto',
