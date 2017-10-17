@@ -11,10 +11,10 @@ import airbnbImage from '../images/airbnb-3.jpg'; // Tell Webpack this JS file u
 const TemplateWrapper = ({ children }) => (
   <div className="wrapper" style={{backgroundImage: `url(${airbnbImage})`}}>
     <Helmet
-      title="Gatsby Default Starter"
+      title="ZensRoom: Medium-term rentals for visitors, students, and business travellers"
       meta={[
-        { name: 'description', content: 'Sample' },
-        { name: 'keywords', content: 'sample, something' },
+        { name: 'description', content: 'Medium-term rentals for visitors, students, and business travellers' },
+        { name: 'keywords', content: 'tokyo, kyoto, osaka, appartments, rooms, houses, rentals' },
       ]}
     />
     <div>
