@@ -1,5 +1,10 @@
+html, body{
+  padding: 0;
+  margin: 0;
+}
+
 .wrapper{
-  height: 100vh;
+  min-height: 100vh;
   width: 100%;
   background-size: cover;
   position: relative;
@@ -37,4 +42,13 @@ h3{
 h4{
 
 
+}
+
+@media only screen and (max-width: 800px) {
+  .home{
+    text-align: center;
+    min-height: 100vh;
+    position: static;
+    width: auto;
+  }
 }

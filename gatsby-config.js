@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
+    title: `ZensRoom: Medium-term rentals for visitors, students, and business travellers`,
   },
   plugins: [`gatsby-plugin-react-helmet`],
 }

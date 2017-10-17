@@ -1,11 +1,11 @@
 import React from 'react'
 import Link from 'gatsby-link'
 
-import logo from '../images/zensroom-logo.png'; // Tell Webpack this JS file uses this image
+import logo from '../images/zensroom.png'; // Tell Webpack this JS file uses this image
 
 const IndexPage = () => (
   <div className="home">
-    <h1 className="home-header"><img src={logo} width="150px"/></h1>
+    <h1 className="home-header"><img src={logo} width="250px"/></h1>
     <div className="home-content">
     <h2>The easiest way to stay in Japan</h2>
     <h3>Medium-term rentals for visitors, students, and business travellers.</h3>
