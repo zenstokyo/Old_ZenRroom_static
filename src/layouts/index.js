@@ -6,10 +6,10 @@ import Helmet from 'react-helmet'
 import './index.css'
 import './home.css'
 
-import airbnbImage from '../images/airbnb-3.jpg'; // Tell Webpack this JS file uses this image
+import image from '../images/rooms/_MG_1222.jpg'; // Tell Webpack this JS file uses this image
 
 const TemplateWrapper = ({ children }) => (
-  <div className="wrapper" style={{backgroundImage: `url(${airbnbImage})`}}>
+  <div className="wrapper" style={{backgroundImage: `url(${image})`}}>
     <Helmet
       title="ZensRoom: Medium-term rentals for visitors, students, and business travellers"
       meta={[
