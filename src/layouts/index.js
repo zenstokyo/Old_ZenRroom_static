@@ -4,7 +4,7 @@ import Link from 'gatsby-link'
 import Helmet from 'react-helmet'
 
 import './index.css'
-import './home.css'
+import './home.scss'
 
 import image from '../images/rooms/_MG_1222.jpg'; // Tell Webpack this JS file uses this image
 
