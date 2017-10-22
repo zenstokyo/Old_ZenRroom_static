@@ -90,4 +90,13 @@ h4{
     position: static;
     width: auto;
   }
+  .stats{
+    display: block;
+  }
+  .stat{
+    margin-bottom: 40px;
+    &:last-child{
+      margin-bottom: 0;
+    }
+  }
 }
