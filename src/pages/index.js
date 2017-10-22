@@ -32,7 +32,7 @@ const IndexPage = () => (
       </div>
     </div>
     <h4>Monthly rentals are coming soon…</h4>
-    <p>Questions? Need help moving to Japan? Contact us at <a href="mailto:contact@zensroom.com">contact@zensroom.com</a></p>
+    <p>Questions? Need help moving to Japan? Contact us at <a href="mailto:contact@zens.tokyo">contact@zens.tokyo</a></p>
     </div>
     <p className="home-footer">&copy; 2017 <a href="http://zens.tokyo">Zens</a> | Icons by <a href="https://icons8.com/">Icon8</a></p>
   </div>
